@@ -1,0 +1,177 @@
+[gd_scene load_steps=12 format=3 uid="uid://378o7twkc2od"]
+
+[ext_resource type="Script" path="res://elements/background_menu.cs" id="1_m3l0x"]
+[ext_resource type="Texture2D" uid="uid://bv3nfbks18yqc" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Background/back.png" id="2_fwcrr"]
+[ext_resource type="Texture2D" uid="uid://c1ft3itecsekq" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Background/middle.png" id="3_jpglj"]
+[ext_resource type="Texture2D" uid="uid://ckpr68ghucncr" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/plant-house.png" id="4_tegs3"]
+[ext_resource type="Texture2D" uid="uid://dih13aspdxuat" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/rock-2.png" id="5_cjoev"]
+[ext_resource type="Texture2D" uid="uid://boueny5jbs1c5" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/straw-house.png" id="6_dpqbx"]
+[ext_resource type="Texture2D" uid="uid://cx0f4v5uuv5pq" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/wooden-house.png" id="7_ee4ot"]
+[ext_resource type="Texture2D" uid="uid://ds3rwalwl2il" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/tree.png" id="8_uvg7o"]
+[ext_resource type="Texture2D" uid="uid://bcn0fo0loweb1" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/house.png" id="9_3bs40"]
+[ext_resource type="Texture2D" uid="uid://sxtn6mpxaog" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/rock-1.png" id="10_ddu6x"]
+[ext_resource type="Texture2D" uid="uid://buffuhq4hf0vd" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/bush.png" id="11_clr1e"]
+
+[node name="background_menu" type="ParallaxBackground"]
+script = ExtResource("1_m3l0x")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Back" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(577, 325.5)
+scale = Vector2(3, 2.69583)
+texture = ExtResource("2_fwcrr")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.9, 0.9)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Middle" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(89, 442)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(166, 403)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(288, 466)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle4" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(451, 475)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle5" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(608, 478)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle6" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(725, 435)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle7" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(836, 399)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle8" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(930, 451)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle9" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1005, 463)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle10" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1065, 442)
+texture = ExtResource("3_jpglj")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.8, 0.8)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Middle" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(89, 498)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle2" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(166, 538)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle3" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(288, 573)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle4" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(442, 572)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle5" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(587, 570)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle6" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(718, 532)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle7" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(836, 530)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle8" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(930, 533)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle9" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(1002, 531)
+texture = ExtResource("3_jpglj")
+
+[node name="Middle10" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(1065, 498)
+texture = ExtResource("3_jpglj")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.6, 0.6)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Plant-house" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(622, 602)
+texture = ExtResource("4_tegs3")
+
+[node name="Rock-2" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(912.553, 626.75)
+scale = Vector2(1.28947, 1.28947)
+texture = ExtResource("5_cjoev")
+
+[node name="Straw-house" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(216, 608)
+texture = ExtResource("6_dpqbx")
+
+[node name="Wooden-house" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(756, 602)
+texture = ExtResource("7_ee4ot")
+
+[node name="Straw-house2" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(491, 605)
+texture = ExtResource("6_dpqbx")
+
+[node name="Tree" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(351, 597)
+texture = ExtResource("8_uvg7o")
+
+[node name="Tree4" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(833, 600)
+texture = ExtResource("8_uvg7o")
+
+[node name="Tree3" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(798, 621)
+texture = ExtResource("8_uvg7o")
+
+[node name="Tree5" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(907, 551)
+texture = ExtResource("8_uvg7o")
+
+[node name="House" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(63, 602)
+texture = ExtResource("9_3bs40")
+
+[node name="House2" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(138, 617)
+texture = ExtResource("9_3bs40")
+
+[node name="House3" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(1048, 595)
+texture = ExtResource("9_3bs40")
+
+[node name="House4" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(1108, 622)
+texture = ExtResource("9_3bs40")
+
+[node name="Rock-1" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(535, 642)
+texture = ExtResource("10_ddu6x")
+
+[node name="Bush" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(664, 642)
+texture = ExtResource("11_clr1e")

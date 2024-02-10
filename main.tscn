@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://cuetfgiergax1"]
+
+[ext_resource type="Script" path="res://main.cs" id="1_41ml5"]
+[ext_resource type="PackedScene" uid="uid://378o7twkc2od" path="res://elements/background_menu.tscn" id="2_ctady"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_41ml5")
+
+[node name="PlayButton" type="Button" parent="."]
+offset_left = 56.0
+offset_top = 324.0
+offset_right = 297.0
+offset_bottom = 400.0
+rotation = -0.136136
+text = "PLAY"
+
+[node name="LoadButton" type="Button" parent="."]
+offset_left = 55.9977
+offset_top = 425.07
+offset_right = 296.998
+offset_bottom = 501.07
+rotation = -0.136136
+text = "LOAD"
+
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 59.0
+offset_top = 523.0
+offset_right = 300.0
+offset_bottom = 599.0
+rotation = -0.136136
+text = "QUIT"
+
+[node name="background_menu" parent="." instance=ExtResource("2_ctady")]
+
+[node name="backgroundDirection" type="CheckButton" parent="."]
+offset_left = 877.0
+offset_top = 8.0
+offset_right = 1148.0
+offset_bottom = 39.0
+button_pressed = true
+text = "paralax direction"
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="LoadButton" to="." method="_on_load_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_pressed"]
+[connection signal="toggled" from="backgroundDirection" to="." method="_on_background_direction_toggled"]

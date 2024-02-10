@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cx11incjai4mq"
+path="res://.godot/imported/Hurt_and_heart.ogg-27b8941162ea0093bc3c9dc4ea34117d.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/Sunny-Land/Music by Ansimuz/Music by Ansimuz/Hurt_and_heart.ogg"
+dest_files=["res://.godot/imported/Hurt_and_heart.ogg-27b8941162ea0093bc3c9dc4ea34117d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
