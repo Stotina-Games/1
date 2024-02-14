@@ -12,14 +12,12 @@ config_version=5
 
 config/name="TestGame"
 run/main_scene="res://main.tscn"
-config/features=PackedStringArray("4.2", "C#", "GL Compatibility")
+config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
-GameInstance="*res://global/code/GameInstance.cs"
-Gameplay="*res://global/code/gameplay.cs"
-Utils="*res://global/code/utils.cs"
+Gameplay="*res://global/code/gameplay.gd"
 
 [dotnet]
 
@@ -30,3 +28,4 @@ project/assembly_name="Games"
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true

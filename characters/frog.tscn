@@ -1,7 +1,7 @@
 [gd_scene load_steps=27 format=3 uid="uid://dfabp4jbrhbin"]
 
-[ext_resource type="Script" path="res://characters/frog.cs" id="1_385nt"]
 [ext_resource type="Texture2D" uid="uid://cs8rl3p1kbu8o" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/spritesheets/enemy-deadth.png" id="1_dy7g6"]
+[ext_resource type="Script" path="res://characters/frog.gd" id="1_fdgft"]
 [ext_resource type="Texture2D" uid="uid://c38k2wdkj1xx2" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/spritesheets/frog-jump.png" id="2_wj84r"]
 [ext_resource type="Texture2D" uid="uid://cltojdy11qroa" path="res://assets/Sunny-Land/Sunny-land-files/Sunny-land-files/Graphical Assets/spritesheets/frog-idle.png" id="3_rf4ya"]
 
@@ -223,7 +223,7 @@ size = Vector2(24, 14)
 [node name="Frog" type="CharacterBody2D"]
 collision_layer = 2
 collision_mask = 2
-script = ExtResource("1_385nt")
+script = ExtResource("1_fdgft")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_4y2pa")

@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://d11x0hmj0sprb"]
 
-[ext_resource type="Script" path="res://elements/spawner.cs" id="1_y6gl3"]
+[ext_resource type="Script" path="res://elements/spawner.gd" id="1_nec64"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_04djh"]
 
 [node name="spawner" type="Area2D"]
-script = ExtResource("1_y6gl3")
+script = ExtResource("1_nec64")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_04djh")
